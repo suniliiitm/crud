@@ -1,6 +1,7 @@
 class Test{
 		public static void main(String[] args){
-			dateTime();	
+			dateTime();
+			manAwastha(101);	
 		
 		}
 		public void doProcess(){
@@ -10,7 +11,7 @@ class Test{
 		static void dateTime(){
 			System.out.println("today date and time: \n"+java.time.LocalDateTime.now());
 		}
-		static int manAwastha(int age){
+		static void manAwastha(int age){
 			if(age<13){
 				System.out.println("u r child");
 			}else if(age<19 && age>12){
